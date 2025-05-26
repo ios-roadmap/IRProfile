@@ -4,29 +4,23 @@
 import PackageDescription
 
 let package = Package(
-    name: "IRProfileLibrary",
+    name: "IRProfileInterface",
     defaultLocalization: "en",
     platforms: [.iOS(.v18)],
     products: [
         .library(
-            name: "IRProfileLibrary",
-            targets: ["IRProfileLibrary"]
-        ),
+            name: "IRProfileInterface",
+            targets: ["IRProfileInterface"]),
     ],
     dependencies: [
-        .package(name: "IRSettingsInterface", path: "../../../Features/IRSettingsInterface"),
         
-        .package(name: "IRStyleKit", path: "../../../Packages/IRStyleKit")
     ],
     targets: [
         .target(
-            name: "IRProfileLibrary",
+            name: "IRProfileInterface",
             dependencies: [
-                "IRSettingsInterface",
                 
-                "IRStyleKit"
             ]
         ),
-        
     ]
 )

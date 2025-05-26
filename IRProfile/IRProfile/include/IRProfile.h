@@ -2,7 +2,7 @@
 //  IRProfile.h
 //  IRProfile
 //
-//  Created by Ömer Faruk Öztürk on 6.05.2025.
+//  Created by Ömer Faruk Öztürk on 26.05.2025.
 //
 
 #import <Foundation/Foundation.h>

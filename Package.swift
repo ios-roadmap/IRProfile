@@ -15,13 +15,13 @@ let package = Package(
             targets: ["IRProfile"]),
     ],
     dependencies: [
-        .package(name: "IRProfileInterface", path: "IRProfileInterface")
+        
     ],
     targets: [
         .target(
             name: "IRProfile",
             dependencies: [
-                "IRProfileInterface"
+                
             ],
             path: "IRProfile"
         ),
